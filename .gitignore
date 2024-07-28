@@ -1,0 +1,22 @@
+echo "
+# Virtual environment
+genre_classification/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/processed/
+
+# VS Code settings
+.vscode/
+" > .gitignore
